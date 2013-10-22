@@ -20,4 +20,9 @@
     return data;
 }
 
+// A few things to keep in mind here.
+// - Just because there is a -sharedData method doesn't mean you couldn't just alloc/init a new RWSData object.
+// - Beward that, because you are sharing data here with multiple controllers, you'll want to watch out things like one controller trying to iterate over an array while another is trying to mutate that array. You'll wanna serialize access to stuff inside this class or something.
+// - This didn't take an elaborate framework or library.
+
 @end
