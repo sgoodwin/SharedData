@@ -14,13 +14,14 @@
 		9B45558E18172F3200A18FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B45558D18172F3200A18FE5 /* main.m */; };
 		9B45559218172F3200A18FE5 /* RWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B45559118172F3200A18FE5 /* RWSAppDelegate.m */; };
 		9B45559518172F3200A18FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B45559318172F3200A18FE5 /* Main.storyboard */; };
-		9B45559818172F3200A18FE5 /* RWSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B45559718172F3200A18FE5 /* RWSViewController.m */; };
+		9B45559818172F3200A18FE5 /* RWSOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B45559718172F3200A18FE5 /* RWSOneViewController.m */; };
 		9B45559A18172F3200A18FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B45559918172F3200A18FE5 /* Images.xcassets */; };
 		9B4555A118172F3200A18FE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4555A018172F3200A18FE5 /* XCTest.framework */; };
 		9B4555A218172F3200A18FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B45558118172F3200A18FE5 /* Foundation.framework */; };
 		9B4555A318172F3200A18FE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B45558518172F3200A18FE5 /* UIKit.framework */; };
 		9B4555AB18172F3200A18FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4555A918172F3200A18FE5 /* InfoPlist.strings */; };
 		9B4555AD18172F3200A18FE5 /* SharedDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4555AC18172F3200A18FE5 /* SharedDataTests.m */; };
+		9B4555BB1817323800A18FE5 /* RWSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4555BA1817323800A18FE5 /* RWSData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		9B45559018172F3200A18FE5 /* RWSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWSAppDelegate.h; sourceTree = "<group>"; };
 		9B45559118172F3200A18FE5 /* RWSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWSAppDelegate.m; sourceTree = "<group>"; };
 		9B45559418172F3200A18FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B45559618172F3200A18FE5 /* RWSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWSViewController.h; sourceTree = "<group>"; };
-		9B45559718172F3200A18FE5 /* RWSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWSViewController.m; sourceTree = "<group>"; };
+		9B45559618172F3200A18FE5 /* RWSOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWSOneViewController.h; sourceTree = "<group>"; };
+		9B45559718172F3200A18FE5 /* RWSOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWSOneViewController.m; sourceTree = "<group>"; };
 		9B45559918172F3200A18FE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B45559F18172F3200A18FE5 /* SharedDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4555A018172F3200A18FE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9B4555A818172F3200A18FE5 /* SharedDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedDataTests-Info.plist"; sourceTree = "<group>"; };
 		9B4555AA18172F3200A18FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B4555AC18172F3200A18FE5 /* SharedDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedDataTests.m; sourceTree = "<group>"; };
+		9B4555B91817323800A18FE5 /* RWSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSData.h; sourceTree = "<group>"; };
+		9B4555BA1817323800A18FE5 /* RWSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 				9B45559018172F3200A18FE5 /* RWSAppDelegate.h */,
 				9B45559118172F3200A18FE5 /* RWSAppDelegate.m */,
 				9B45559318172F3200A18FE5 /* Main.storyboard */,
-				9B45559618172F3200A18FE5 /* RWSViewController.h */,
-				9B45559718172F3200A18FE5 /* RWSViewController.m */,
+				9B45559618172F3200A18FE5 /* RWSOneViewController.h */,
+				9B45559718172F3200A18FE5 /* RWSOneViewController.m */,
 				9B45559918172F3200A18FE5 /* Images.xcassets */,
 				9B45558818172F3200A18FE5 /* Supporting Files */,
+				9B4555B91817323800A18FE5 /* RWSData.h */,
+				9B4555BA1817323800A18FE5 /* RWSData.m */,
 			);
 			path = SharedData;
 			sourceTree = "<group>";
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4555BB1817323800A18FE5 /* RWSData.m in Sources */,
 				9B45558E18172F3200A18FE5 /* main.m in Sources */,
 				9B45559218172F3200A18FE5 /* RWSAppDelegate.m in Sources */,
-				9B45559818172F3200A18FE5 /* RWSViewController.m in Sources */,
+				9B45559818172F3200A18FE5 /* RWSOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
